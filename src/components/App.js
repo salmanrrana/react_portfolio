@@ -1,7 +1,8 @@
+import "./App.css";
 import React from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 
-import Header from "./Header";
+import Header from "./Header/Header";
 import Home from "./screens/Home";
 import Projects from "./screens/Projects";
 import Contact from "./screens/Contact";
@@ -9,7 +10,7 @@ import Resume from "./screens/Resume";
 
 const App = () => {
   return (
-    <div className=" ui container">
+    <div className="app-background ui container">
       <BrowserRouter>
         <div>
           <Header />
