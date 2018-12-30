@@ -1,3 +1,5 @@
 .app-background {
-  background-color: "black";
+  background: url("../assets/img/california.jpg");
+  height: 100vh;
+  color: white;
 }

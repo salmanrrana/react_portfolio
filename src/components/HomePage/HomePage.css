@@ -8,13 +8,5 @@
 
 .devName {
   text-align: center;
-  margin: 0;
-}
-
-h3 {
-  margin: 0;
-}
-
-h2 {
-  margin: 0;
+  margin-right: 10px;
 }

@@ -1,0 +1,17 @@
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.resumePic {
+  /* max-height: 600px; */
+  height: 80vh;
+  width: auto;
+  border: 1px solid #284b63;
+}
+
+.resumeLink {
+  color: white;
+}

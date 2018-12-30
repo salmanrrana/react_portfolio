@@ -3,4 +3,8 @@ import ReactDOM from "react-dom";
 
 import App from "./components/App";
 
-ReactDOM.render(<App />, document.querySelector("#root"));
+const styles = {
+  backgroundImage: 'url("../assets/img/flowers.jpg")'
+};
+
+ReactDOM.render(<App style={styles} />, document.querySelector("#root"));
