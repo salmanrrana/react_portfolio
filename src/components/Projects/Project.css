@@ -4,8 +4,8 @@
   align-items: center;
   flex-direction: column;
   background: rgba(22, 13, 81, 0.7);
-  max-width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 250px;
   margin: 10px;
   border-radius: 7px;
   text-align: center;
@@ -14,8 +14,9 @@
 }
 
 .projectPic {
-  max-width: 65%;
+  max-width: 70%;
   height: auto;
+  border-radius: 10px;
 }
 
 .list {
@@ -24,5 +25,5 @@
 }
 
 .description {
-  overflow-y: auto;
+  display: block;
 }

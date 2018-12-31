@@ -18,9 +18,8 @@ class Project extends React.Component {
           >
             <img className="projectPic" src={project.image} alt="project" />
           </Link>
-          <div>
+          <div className="description">
             <h3>{project.name}</h3>
-            <div className="description" />
           </div>
         </div>
       );

@@ -31,9 +31,9 @@ const PROJECTS = [
     description:
       "The company aimed to resolve the headaches of long messy links. The website and Chrome Extension allows users to comparative shop across sites.",
     technologies: "React, Firebase",
-    linkDescription: "",
-    link: "",
-    image: "https://i.imgur.com/Y5vR32s.png"
+    linkDescription: null,
+    link: null,
+    image: "https://i.imgur.com/GoqPMvN.png"
   },
   {
     id: 4,
@@ -63,7 +63,7 @@ const PROJECTS = [
     technologies: "Node.js, Mongoose, Express",
     linkDescription: "Check it out here: ",
     link: "http://health-connect-ga.herokuapp.com/",
-    image: "https://i.imgur.com/1q5h47h.png"
+    image: "https://i.imgur.com/BdP4rzN.png"
   }
 ];
 

@@ -12,9 +12,7 @@ const Modal = props => {
         <div className="header">{props.name}</div>
         <div className="modal-body">
           <div className="modal-image">
-            <div className="modal-setting">
-              <img className="project-image" src={props.image} alt="project" />
-            </div>
+            <img className="project-image" src={props.image} alt="project" />
           </div>
           <div className="content modal-Content">
             <p>{props.description}</p>
