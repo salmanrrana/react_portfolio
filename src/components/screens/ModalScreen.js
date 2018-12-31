@@ -3,7 +3,6 @@ import history from "../../history";
 import Modal from "../Modal";
 
 const ModalScreen = props => {
-  console.log("this is from modal: ", props.location.state.project);
   const {
     description,
     image,

@@ -16,7 +16,9 @@ const Modal = props => {
           </div>
           <div className="content modal-Content">
             <p>{props.description}</p>
-            <p>Technologies Used: {props.technologies}</p>
+            <p>
+              Technologies Used: <strong>{props.technologies}</strong>
+            </p>
             <p>
               {props.linkDescription}
               <a target="_blank" rel="noopener noreferrer" href={props.link}>

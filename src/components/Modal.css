@@ -1,23 +1,14 @@
-/* .ui.modal {
-  background: green;
-} */
-
 .modal-image {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-/* .modal-setting {
-  display: block;
-} */
-
 .project-image {
-  /* max-height: 60vh; */
   width: 400px;
   height: 400px;
   object-fit: cover;
-  margin: 50px;
+  margin: 10px;
   border-radius: 10px;
 }
 
@@ -26,7 +17,6 @@
   justify-content: space-between;
   flex-direction: row;
   margin: 10px;
-
   max-height: 600px;
 }
 

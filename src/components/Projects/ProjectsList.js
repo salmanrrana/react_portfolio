@@ -1,14 +1,12 @@
-import "./ProjectsList.css";
 import React from "react";
 import Project from "./Project";
-// import Spinner from "../Spinner";
 
 const PROJECTS = [
   {
     id: 1,
     name: "Tipzy",
     description:
-      "A simple app built for the times you dont want to figure out the math to split a check. Coming to a Google Play and App Store near you",
+      "A simple app built for the times you dont want to figure out the math to split a check. Coming to a Google Play and App Store near you soon.",
     technologies: "React Native",
     linkDescription: "Try it through Expo: ",
     link: "https://expo.io/@salmanrrana/tipzy",
@@ -68,17 +66,10 @@ const PROJECTS = [
 ];
 
 class ProjectsList extends React.Component {
-  // Attempt to implement spinner when projects are loading in future
-  // renderContent() {
-  //   if (null) {
-  //     console.log("The spinner came up for a second");
-  //     return <Spinner message={Content is loading...}/>;
-  //   }
-  //   return <Project data={PROJECTS} />;
-  // }
-
   render() {
-    return <Project data={PROJECTS} />;
+    return PROJECTS.map(project => {
+      return <Project projectData={project} key={project.id} />;
+    });
   }
 }
 
