@@ -14,10 +14,12 @@ const App = () => {
       <BrowserRouter>
         <React.Fragment>
           <Header />
-          <Route path="/" exact component={HomeScreen} />
-          <Route path="/projects" exact component={ProjectsScreen} />
-          <Route path="/resume" exact component={ResumeScreen} />
-          <Route path="/contact" exact component={ContactScreen} />
+          <div className="scroll">
+            <Route path="/" exact component={HomeScreen} />
+            <Route path="/projects" exact component={ProjectsScreen} />
+            <Route path="/resume" exact component={ResumeScreen} />
+            <Route path="/contact" exact component={ContactScreen} />
+          </div>
         </React.Fragment>
       </BrowserRouter>
     </div>

@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(22, 13, 81, 0.7);
+  max-width: 400px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 7px;
+  text-align: center;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.projectPic {
+  max-width: 65%;
+  height: auto;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  overflow-y: auto;
+}

@@ -7,7 +7,8 @@ class Resume extends React.Component {
       <div className="resume">
         <a
           href="https://drive.google.com/file/d/1vaZfr37IpVp-SWz5IKRdgsOq6Uf5QKgS/view?usp=sharing"
-          target="-blank"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           <img
             className="resumePic"
@@ -18,7 +19,8 @@ class Resume extends React.Component {
         <a
           className="resumeLink"
           href="https://drive.google.com/file/d/1vaZfr37IpVp-SWz5IKRdgsOq6Uf5QKgS/view?usp=sharing"
-          target="-blank"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           CLICK FOR PDF
         </a>
