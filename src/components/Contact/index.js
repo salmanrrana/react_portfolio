@@ -27,6 +27,13 @@ class Contact extends React.Component {
             className="img"
           />
         </a>
+        <a href="mailto:salman.r.rana@gmail.com">
+          <img
+            src="https://i.imgur.com/gc2vyJV.png"
+            alt="email link"
+            className="img email"
+          />
+        </a>
       </div>
     );
   }

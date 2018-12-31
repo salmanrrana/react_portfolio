@@ -13,5 +13,10 @@
 }
 
 .resumeLink {
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
 }

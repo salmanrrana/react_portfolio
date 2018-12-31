@@ -1,12 +1,25 @@
 .contactLinks {
   display: flex;
-  justify-content: center;
+  /* display: block; */
+  justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 100px;
+  /* margin-left: 50px; */
+  text-align: center;
 }
 
 .img {
-  max-width: 75%;
+  max-width: 45%;
   height: auto;
+  /* margin: 20px; */
+}
+
+.img:hover {
+  -webkit-filter: opacity(50%); /* Safari 6.0 - 9.0 */
+  filter: opacity(50%);
+}
+
+.email {
+  margin-top: 50px;
 }

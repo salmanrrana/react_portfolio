@@ -1,12 +1,36 @@
+.homeLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .screen {
   height: 80vh;
   display: flex;
   justify-content: flex-end;
-  flex-direction: column;
   align-items: flex-end;
 }
 
 .devName {
   text-align: center;
   margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.item:hover {
+  background: rgba(22, 13, 81, 0.7);
+  border: 1px solid rgba(22, 13, 81, 0.9);
+}
+
+h3 {
+  margin: 75px;
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.tilde {
+  font-size: 50px;
 }
