@@ -1,4 +1,7 @@
 .loading {
-  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200px;
   color: white;
 }

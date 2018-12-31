@@ -17,7 +17,7 @@ class Project extends React.Component {
   render() {
     const project = this.props.projectData;
     const { isLoading } = this.state;
-    let shouldDisplayImage = isLoading ? "block" : null;
+    let shouldDisplayImage = isLoading ? 0 : null;
 
     return (
       <div className="card">
@@ -35,7 +35,7 @@ class Project extends React.Component {
             src={project.image}
             alt="project"
             onLoad={this.handleOnLoad}
-            style={{ display: shouldDisplayImage }}
+            style={{ opacity: shouldDisplayImage }}
           />
 
           <div className="description">
