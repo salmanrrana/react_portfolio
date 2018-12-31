@@ -1,0 +1,28 @@
+/* .ui.modal {
+  background: green;
+} */
+
+.modal-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-setting {
+  display: block;
+}
+
+.project-image {
+  max-height: 60vh;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.modal-Content {
+  display: flex;
+  flex-direction: column;
+}

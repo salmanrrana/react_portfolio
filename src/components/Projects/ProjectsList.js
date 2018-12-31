@@ -27,16 +27,6 @@ const PROJECTS = [
   },
   {
     id: 3,
-    name: "Health Connect",
-    description:
-      "Collaborative project with mockups and wireframes provided by UX team. The app connects children, through their guardians sign up, with doctor-care through the school nurse.",
-    technologies: "Node.js, Mongoose, Express",
-    linkDescription: "Check it out here: ",
-    link: "http://health-connect-ga.herokuapp.com/",
-    image: "https://i.imgur.com/1q5h47h.png"
-  },
-  {
-    id: 4,
     name: "Coco",
     description:
       "The company aimed to resolve the headaches of long messy links. The website and Chrome Extension allows users to comparative shop across sites.",
@@ -46,7 +36,7 @@ const PROJECTS = [
     image: "https://i.imgur.com/Y5vR32s.png"
   },
   {
-    id: 5,
+    id: 4,
     name: "Start The Show",
     description:
       "A small, yet, fun javscript excercise to make a simple sampler. Let your imagination and musical side shine.",
@@ -56,7 +46,7 @@ const PROJECTS = [
     image: "https://i.imgur.com/lrL2JKb.jpg"
   },
   {
-    id: 6,
+    id: 5,
     name: "Hoop It Up",
     description:
       "Single page application created to help you and your friends keep score whenever you play a game of pickup basketball!",
@@ -64,6 +54,16 @@ const PROJECTS = [
     linkDescription: "Check it out here: ",
     link: "http://hoopitup.surge.sh/",
     image: "https://i.imgur.com/iwJTQno.png"
+  },
+  {
+    id: 6,
+    name: "Health Connect",
+    description:
+      "Collaborative project with mockups and wireframes provided by UX team. The app connects children, through their guardians sign up, with doctor-care through the school nurse.",
+    technologies: "Node.js, Mongoose, Express",
+    linkDescription: "Check it out here: ",
+    link: "http://health-connect-ga.herokuapp.com/",
+    image: "https://i.imgur.com/1q5h47h.png"
   }
 ];
 
