@@ -18,7 +18,7 @@ const PROJECTS = [
     id: 2,
     name: "JAWBS",
     description:
-      "An app built to help a person find a job using the indeed API. It was built while following a React Native course taught by Stepehen Grider.",
+      "App built to help people find a job using the indeed API. It was built while following a React Native course taught by Stephen Grider.",
     technologies:
       "React Native, Redux, Redux Thunk, React Navigation, Lodash, Axios",
     linkDescription: "Check out the code here: ",
@@ -29,7 +29,7 @@ const PROJECTS = [
     id: 3,
     name: "Health Connect",
     description:
-      "A group project with a UX team providing mockups and wireframes. I worked on setting up the backend of the app using node.js, express, and mongoDB. The app connects children, through their guardians sign up, with doctor-care through the school nurse.",
+      "Collaborative project with mockups and wireframes provided by UX team. The app connects children, through their guardians sign up, with doctor-care through the school nurse.",
     technologies: "Node.js, Mongoose, Express",
     linkDescription: "Check it out here: ",
     link: "http://health-connect-ga.herokuapp.com/",
@@ -39,7 +39,7 @@ const PROJECTS = [
     id: 4,
     name: "Coco",
     description:
-      "The company aimed to resolve the headaches of long messy links. The website and Chrome Extension allows users to right click on items from across the web and add the item to their basket in order to comparitive shop in one location. After the user has their items in a basket, they can share it with their friends and leave comments on each item.",
+      "The company aimed to resolve the headaches of long messy links. The website and Chrome Extension allows users to comparative shop across sites.",
     technologies: "React, Firebase",
     linkDescription: "",
     link: "",

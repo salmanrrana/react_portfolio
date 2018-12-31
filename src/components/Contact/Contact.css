@@ -1,7 +1,12 @@
-.list {
+.contactLinks {
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+.img {
+  max-width: 75%;
+  height: auto;
 }

@@ -1,7 +1,8 @@
 import React from "react";
+import Contact from "../Contact";
 
-const Contact = () => {
-  return <div>Contact</div>;
+const ContactScreen = () => {
+  return <Contact />;
 };
 
-export default Contact;
+export default ContactScreen;
