@@ -6,7 +6,7 @@ const PROJECTS = [
     id: 1,
     name: "Tipzy",
     description:
-      "A simple app built for the times you dont want to figure out the math to split a check. Coming to a Google Play and App Store near you soon.",
+      "A simple app built for the times you don't want to figure out the math to split a check. Coming to a Google Play and App Store near you soon.",
     technologies: "React Native",
     linkDescription: "Try it through Expo: ",
     link: "https://expo.io/@salmanrrana/tipzy",
@@ -37,7 +37,7 @@ const PROJECTS = [
     id: 4,
     name: "Start The Show",
     description:
-      "A small, yet, fun javscript excercise to make a simple sampler. Let your imagination and musical side shine.",
+      "A small, yet, fun javscript excercise to make a simple sampler. Let your imagination and musical side shine. Currently only available on a desktop browsers...sorry.",
     technologies: "Javascript",
     linkDescription: "Check it out here: ",
     link: "https://salmanrrana.github.io/drum_sampler/",
