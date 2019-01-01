@@ -20,3 +20,15 @@
   background-color: rgba(0, 0, 0, 0.7);
   padding: 10px;
 }
+
+@media only screen and (max-width: 815px) {
+  .resumePic {
+    /* height: 40vh; */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .resumePic {
+    height: 60vh;
+  }
+}

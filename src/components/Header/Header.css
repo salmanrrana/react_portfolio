@@ -28,3 +28,42 @@ h3 {
 h1 {
   color: rgba(255, 255, 255, 0.9) !important;
 }
+
+@media only screen and (max-width: 420px) {
+  h1:last-child,
+  h2:last-child,
+  h3:last-child,
+  h4:last-child,
+  h5:last-child {
+    font-size: 15px !important;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .top {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1:last-child,
+  h2:last-child,
+  h3:last-child,
+  h4:last-child,
+  h5:last-child {
+    font-size: 35px;
+    margin: 2px;
+  }
+}
+
+@media only screen and (max-width: 943px) {
+  h1:last-child,
+  h2:last-child,
+  h3:last-child,
+  h4:last-child,
+  h5:last-child {
+    font-size: 35px;
+    margin: 2px;
+  }
+}
