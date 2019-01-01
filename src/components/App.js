@@ -13,7 +13,7 @@ import history from "../history";
 const App = () => {
   return (
     <div className="app-background">
-      <Router history={history}>
+      <Router basename="/" history={history}>
         <React.Fragment>
           <Header />
           <div className="scroll">
