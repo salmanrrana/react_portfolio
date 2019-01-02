@@ -23,3 +23,9 @@
 .email {
   margin-top: 50px;
 }
+
+@media only screen and (max-width: 1025px) {
+  .email {
+    margin-top: 0;
+  }
+}

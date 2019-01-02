@@ -8,7 +8,7 @@ class HomePage extends React.Component {
         <div className="screen">
           <div className="devName">
             <h2>salman r rana</h2>
-            <h3 className="tilde">~</h3>
+            <p>~</p>
             <h2>web developer</h2>
           </div>
         </div>

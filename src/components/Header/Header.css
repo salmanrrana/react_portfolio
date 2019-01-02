@@ -22,11 +22,19 @@
 }
 
 h3 {
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 h1 {
-  color: rgba(255, 255, 255, 0.9) !important;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+h3:hover {
+  color: #8fbdd3;
+}
+
+h1:hover {
+  color: #8fbdd3;
 }
 
 @media only screen and (max-width: 420px) {
