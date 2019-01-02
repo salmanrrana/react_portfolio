@@ -17,13 +17,17 @@ const Modal = props => {
           <div className="content modal-Content">
             <p>{props.description}</p>
             <p>
-              Technologies Used: <strong>{props.technologies}</strong>
+              Technologies Used:
+              <br /> <strong>{props.technologies}</strong>
             </p>
             <p>
-              {props.linkDescription}
-              <a target="_blank" rel="noopener noreferrer" href={props.link}>
-                HERE!
-              </a>
+              {props.linkDescription ? (
+                <a target="_blank" rel="noopener noreferrer" href={props.link}>
+                  {props.linkDescription}
+                </a>
+              ) : (
+                <></>
+              )}
             </p>
           </div>
         </div>

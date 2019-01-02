@@ -23,11 +23,32 @@
 .modal-Content {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  margin: 20px;
 }
 
-@media only screen and (max-width: 420px) {
+p {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-image {
+    width: 250px;
+    height: 250px;
+  }
+
+  p {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .project-image {
     width: 100px;
     height: 100px;
+  }
+
+  p {
+    font-size: 13px;
   }
 }
