@@ -9,41 +9,18 @@
 
 @keyframes loading {
   0% {
-    color: #32c02e;
+    color: #ff7a00;
   }
   25% {
-    color: #ffb500;
+    color: #e82a1d;
   }
   50% {
     color: #ff7a00;
   }
   75% {
-    color: #f41f35;
+    color: #ffb500;
   }
   100% {
-    color: #009ee0;
+    color: #32c02e;
   }
 }
-/*
-@keyframes rotate {
-  0% {
-    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-  }
-  25% {
-    transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(0deg);
-  }
-  50% {
-    transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
-    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-180deg);
-  }
-  75% {
-    transform: perspective(120px) rotateX(0deg) rotateY(-180deg);
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(-180deg);
-  }
-  100% {
-    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
-    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(-0deg);
-  }
-} */
