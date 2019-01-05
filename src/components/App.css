@@ -1,14 +1,16 @@
-.app-background {
+body,
+html {
+  height: 100%;
+  margin: auto;
   background: url("../assets/img/california.jpg");
-  height: 100vh;
-  width: 100vw;
-  color: rgba(255, 255, 255, 0.9);
-  overflow-y: auto;
-  /* object-fit: fill; */
-  /* background-repeat: repeat-x; */
-  /* background-attachment: scroll; */
+  background-attachment: scroll;
+  background-size: 100%;
+  overflow-y: scroll;
 }
 
-/* .scroll {
-  overflow-y: auto;
-} */
+@media only screen and (max-width: 1551px) {
+  body,
+  html {
+    background: linear-gradient(#002c49, #3a7496);
+  }
+}
