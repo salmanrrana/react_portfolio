@@ -30,16 +30,18 @@ class Project extends React.Component {
           }}
         >
           {isLoading && <Spinner />}
-          <img
-            className="projectPic"
-            src={project.image}
-            alt="project"
-            onLoad={this.handleOnLoad}
-            style={{ opacity: shouldDisplayImage }}
-          />
+          <div className="itemsProject">
+            <img
+              className="projectPic"
+              src={project.image}
+              alt="project"
+              onLoad={this.handleOnLoad}
+              style={{ opacity: shouldDisplayImage }}
+            />
 
-          <div className="description">
-            <h3>{project.name}</h3>
+            <div className="description">
+              <h3>{project.name}</h3>
+            </div>
           </div>
         </Link>
       </div>
