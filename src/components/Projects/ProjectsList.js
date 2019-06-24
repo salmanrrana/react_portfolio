@@ -10,7 +10,7 @@ const PROJECTS = [
     technologies:
       "Docker, React, Node, ThreeJS, GSAP, MongoDB, Oracle Autonomous DB, Oracle Analytics Cloud, Oracle Compute, Oracle Identity Cloud Service, NGINX",
     linkDescription: "",
-    link: "Coming Soon",
+    link: "Link Coming Soon",
     image: "https://i.imgur.com/Q1gjT7e.png"
   },
   {
