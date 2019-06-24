@@ -6,7 +6,7 @@ const PROJECTS = [
     id: 1,
     name: "Forecasted Maintenance",
     description:
-      "Cloud Solution for a centralized platform to monitor a multi-refinery ecosystem and perform predicted maintenance. The app will let the refinery not just monitor the live status of their refineries, but also make insightful decisions based on advanced analytics.",
+      "Cloud Solution for a centralized platform to monitor a multi-refinery ecosystem and perform predicted maintenance with insightful decisions based on advanced analytics.",
     technologies:
       "Docker, React, Node, ThreeJS, GSAP, MongoDB, Oracle Autonomous DB, Oracle Analytics Cloud, Oracle Compute, Oracle Identity Cloud Service, NGINX",
     linkDescription: "",
