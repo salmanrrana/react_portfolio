@@ -4,6 +4,17 @@ import Project from "./Project";
 const PROJECTS = [
   {
     id: 1,
+    name: "Forecasted Maintenance",
+    description:
+      "Cloud Solution for a centralized platform to monitor a multi-refinery ecosystem and perform predicted maintenance. The app will let the refinery not just monitor the live status of their refineries, but also make insightful decisions based on advanced analytics.",
+    technologies:
+      "Docker, React, Node, ThreeJS, GSAP, MongoDB, Oracle Autonomous DB, Oracle Analytics Cloud, Oracle Compute, Oracle Identity Cloud Service, NGINX",
+    linkDescription: "",
+    link: "Coming Soon",
+    image: "https://i.imgur.com/Q1gjT7e.png"
+  },
+  {
+    id: 2,
     name: "Tipzy",
     description:
       "A simple app built for the times you don't want to figure out the math to split a check. Coming to a Google Play and App Store near you soon.",
@@ -13,7 +24,7 @@ const PROJECTS = [
     image: "https://i.imgur.com/MdFFdyc.png"
   },
   {
-    id: 2,
+    id: 3,
     name: "JAWBS",
     description:
       "An app built to help people find a job using the indeed API. It was built while following a React Native course taught by Stephen Grider.",
@@ -24,7 +35,7 @@ const PROJECTS = [
     image: "https://i.imgur.com/198tXTB.png"
   },
   {
-    id: 3,
+    id: 4,
     name: "Coco",
     description:
       "The company aimed to resolve the headaches of long messy links. The website and Chrome Extension allows users to comparative shop across sites.",
@@ -34,7 +45,7 @@ const PROJECTS = [
     image: "https://i.imgur.com/GoqPMvN.png"
   },
   {
-    id: 4,
+    id: 5,
     name: "Start The Show",
     description:
       "A small, yet, fun javscript excercise to make a simple sampler. Let your imagination and musical side shine. Currently only available on a desktop browsers...sorry.",
@@ -44,7 +55,7 @@ const PROJECTS = [
     image: "https://i.imgur.com/lrL2JKb.jpg"
   },
   {
-    id: 5,
+    id: 6,
     name: "Hoop It Up",
     description:
       "Single page application created to help you and your friends keep score whenever you play a game of pickup basketball!",
@@ -54,7 +65,7 @@ const PROJECTS = [
     image: "https://i.imgur.com/iwJTQno.png"
   },
   {
-    id: 6,
+    id: 7,
     name: "Health Connect",
     description:
       "Collaborative project with mockups and wireframes provided by UX team. The app connects children, through their guardians sign up, with doctor-care through the school nurse.",
