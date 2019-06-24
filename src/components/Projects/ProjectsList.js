@@ -8,7 +8,7 @@ const PROJECTS = [
     description:
       "Cloud Solution for a centralized platform to monitor a multi-refinery ecosystem and perform predicted maintenance with insightful decisions based on advanced analytics.",
     technologies:
-      "React, Node, NGINX, ThreeJS, Docker, Oracle Autonomous DB, Oracle Analytics Cloud, Oracle Compute, Oracle Identity Cloud Service",
+      "React, Node, NGINX, ThreeJS, Docker, MongoDB, Oracle Autonomous DB, Oracle Analytics Cloud, Oracle Compute, Oracle Identity Cloud Service",
     linkDescription: "Link to Github Repo",
     link: "https://github.com/Kelleyc718/innovation-accel",
     image: "https://i.imgur.com/Q1gjT7e.png"
