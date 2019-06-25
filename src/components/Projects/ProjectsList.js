@@ -11,7 +11,7 @@ const PROJECTS = [
       "React, Node, NGINX, ThreeJS, Docker, MongoDB, Oracle Autonomous DB, Oracle Analytics Cloud, Oracle Compute, Oracle Identity Cloud Service",
     linkDescription: "Link to Github Repo",
     link: "https://github.com/Kelleyc718/innovation-accel",
-    image: "https://i.imgur.com/Q1gjT7e.png"
+    image: "https://i.imgur.com/x8Fe6rm.png"
   },
   {
     id: 2,
