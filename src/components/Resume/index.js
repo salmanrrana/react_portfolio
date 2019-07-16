@@ -27,7 +27,7 @@ class Resume extends React.Component {
           {isLoading && <Spinner />}
           <img
             className="resumePic"
-            src="https://imgur.com/LesfFKd"
+            src="https://i.imgur.com/LesfFKd.png"
             alt="Salman Rana Resume"
             onLoad={this.handleOnLoad}
             style={{ opacity: shouldDisplayImage }}
