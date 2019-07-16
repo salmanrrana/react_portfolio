@@ -20,14 +20,14 @@ class Resume extends React.Component {
     return (
       <div className="resume">
         <a
-          href="https://drive.google.com/file/d/1vaZfr37IpVp-SWz5IKRdgsOq6Uf5QKgS/view?usp=sharing"
+          href="https://drive.google.com/file/d/1YSqBeoSIUXnR87OlkCC-Eu-bYvuOq4mN/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
           {isLoading && <Spinner />}
           <img
             className="resumePic"
-            src="https://i.imgur.com/HE3xbiY.jpg"
+            src="https://imgur.com/LesfFKd"
             alt="Salman Rana Resume"
             onLoad={this.handleOnLoad}
             style={{ opacity: shouldDisplayImage }}
@@ -35,7 +35,7 @@ class Resume extends React.Component {
         </a>
         <a
           className="resumeLink"
-          href="https://drive.google.com/file/d/1vaZfr37IpVp-SWz5IKRdgsOq6Uf5QKgS/view?usp=sharing"
+          href="https://drive.google.com/file/d/1YSqBeoSIUXnR87OlkCC-Eu-bYvuOq4mN/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
