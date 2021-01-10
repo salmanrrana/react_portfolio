@@ -1,8 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Salman R Rana
 
-Hi, Welcome to my website. Here you will find some information on my work. I am currently building out my site, but please come back for future updates and improvements.
+Hi, Welcome to my website.
+Here you will find some information on my work and projects.
+I hope you enjoy
+✌🏽
 
 ### `npm start`
 
