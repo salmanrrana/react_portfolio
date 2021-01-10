@@ -1,15 +1,15 @@
-import "./Resume.css";
-import React from "react";
-import Spinner from "../Spinner";
+import './Resume.css';
+import React from 'react';
+import Spinner from '../Spinner';
 
 class Resume extends React.Component {
   state = {
-    isLoading: true
+    isLoading: true,
   };
 
   handleOnLoad = () => {
     this.setState({
-      isLoading: false
+      isLoading: false,
     });
   };
 
@@ -18,26 +18,26 @@ class Resume extends React.Component {
     let shouldDisplayImage = isLoading ? 0 : null;
 
     return (
-      <div className="resume">
+      <div className='resume'>
         <a
-          href="https://drive.google.com/file/d/1YSqBeoSIUXnR87OlkCC-Eu-bYvuOq4mN/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
+          href='https://drive.google.com/file/d/1akYu2KmXQlzD0stGKguhWTYtrnKHqNx2/view?usp=sharing'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           {isLoading && <Spinner />}
           <img
-            className="resumePic"
-            src="https://i.imgur.com/LesfFKd.png"
-            alt="Salman Rana Resume"
+            className='resumePic'
+            src='https://i.imgur.com/KE2V6XW.png'
+            alt='Salman Rana Resume'
             onLoad={this.handleOnLoad}
             style={{ opacity: shouldDisplayImage }}
           />
         </a>
         <a
-          className="resumeLink"
-          href="https://drive.google.com/file/d/1YSqBeoSIUXnR87OlkCC-Eu-bYvuOq4mN/view?usp=sharing"
-          target="_blank"
-          rel="noopener noreferrer"
+          className='resumeLink'
+          href='https://drive.google.com/file/d/1akYu2KmXQlzD0stGKguhWTYtrnKHqNx2/view?usp=sharing'
+          target='_blank'
+          rel='noopener noreferrer'
         >
           CLICK FOR PDF
         </a>

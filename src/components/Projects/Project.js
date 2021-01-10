@@ -1,16 +1,16 @@
-import "./Project.css";
-import React from "react";
-import { Link } from "react-router-dom";
-import Spinner from "../Spinner";
+import './Project.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
+import Spinner from '../Spinner';
 
 class Project extends React.Component {
   state = {
-    isLoading: true
+    isLoading: true,
   };
 
   handleOnLoad = () => {
     this.setState({
-      isLoading: false
+      isLoading: false,
     });
   };
 
@@ -20,26 +20,26 @@ class Project extends React.Component {
     let shouldDisplayImage = isLoading ? 0 : null;
 
     return (
-      <div className="card">
+      <div className='card'>
         <Link
           to={{
             pathname: `/projectdescription/${project.id}`,
             state: {
-              project: project
-            }
+              project: project,
+            },
           }}
         >
-          {isLoading && <Spinner />}
-          <div className="itemsProject">
+          {isLoading && <Spinner style={{ marginBottom: '4px' }} />}
+          <div className='itemsProject'>
             <img
-              className="projectPic"
+              className='projectPic'
               src={project.image}
-              alt="project"
+              alt='project'
               onLoad={this.handleOnLoad}
               style={{ opacity: shouldDisplayImage }}
             />
 
-            <div className="description">
+            <div className='description'>
               <h3>{project.name}</h3>
             </div>
           </div>
