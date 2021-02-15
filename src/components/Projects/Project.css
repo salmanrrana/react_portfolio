@@ -20,6 +20,8 @@
 
 .itemsProject {
   margin: 5px;
+  display: flex;
+  flex-flow: column-reverse;
 }
 
 .projectPic {
