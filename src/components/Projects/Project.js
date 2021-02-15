@@ -21,6 +21,7 @@ class Project extends React.Component {
 
     return (
       <div className='card'>
+        {isLoading && <Spinner />}
         <Link
           to={{
             pathname: `/projectdescription/${project.id}`,
@@ -30,17 +31,13 @@ class Project extends React.Component {
           }}
         >
           <div className='itemsProject'>
-            {isLoading ? (
-              <Spinner style={{ marginBottom: '4px' }} />
-            ) : (
-              <img
-                className='projectPic'
-                src={project.image}
-                alt='project'
-                onLoad={this.handleOnLoad}
-                style={{ opacity: shouldDisplayImage }}
-              />
-            )}
+            <img
+              className='projectPic'
+              src={project.image}
+              alt='project'
+              onLoad={this.handleOnLoad}
+              style={{ opacity: shouldDisplayImage }}
+            />
             <div className='description'>
               <h3>{project.name}</h3>
             </div>
